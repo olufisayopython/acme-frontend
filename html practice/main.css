@@ -1,0 +1,56 @@
+h1{
+    font: 20px tahoma bold;
+}
+header, nav, section, article, aside, footer{
+    display: block;
+}
+body{
+    display: -webkit-box;
+    width: 100%;
+    -webkit-box-pack: center;
+}
+#big_wrapper{
+    margin: 20px 0;
+    max-width: 1000px;
+    display: -webkit-box;
+    /*-webkit-box-orient: vertical;*/
+    -webkit-box-flex: 1;
+}
+#top_header{
+    background: yellowgreen;
+    padding: 20px;
+    border: 3px solid black;
+}
+#top_menu{
+    background: blue;
+    color: wheat;
+    border: 1px solid red;
+}
+#top_menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 20px bold tahoma;
+}
+#big_wrapper{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+#main_section{
+    border: 1px solid blue;
+    -webkit-box-flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+#side_news{
+    border: 1px solid red;
+    width: 220px;
+    margin: 20px 0;
+    padding: 30px;
+    background: #66cccc;
+}
+#the_footer{
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid green;
+}
